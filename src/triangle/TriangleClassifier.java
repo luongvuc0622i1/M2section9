@@ -6,7 +6,13 @@ public class TriangleClassifier {
         if (side1 < side2 + side3) {
             if (side2 < side3 + side1) {
                 if (side3 < side1 + side2) {
-                    name = "tam giác thường";
+                    if (side1 == side2 && side2 == side3) {
+                        name = "tam giác đều";
+                    } else if (side1 == side2 || side2 == side3)  {
+                        name = "tam giác cân";
+                    } else {
+                        name = "tam giác thường";
+                    }
                 }
             }
         }

@@ -13,7 +13,7 @@ class TriangleClassifierTest {
         int side1 =2;
         int side2 =2;
         int side3 =2;
-        String expected = "tam giác thường";
+        String expected = "tam giác đều";
 
         String result = TriangleClassifier.getTriangleName(side1, side2, side3);
 
@@ -25,7 +25,7 @@ class TriangleClassifierTest {
         int side1 =2;
         int side2 =2;
         int side3 =3;
-        String expected = "tam giác thường";
+        String expected = "tam giác cân";
 
         String result = TriangleClassifier.getTriangleName(side1, side2, side3);
 
