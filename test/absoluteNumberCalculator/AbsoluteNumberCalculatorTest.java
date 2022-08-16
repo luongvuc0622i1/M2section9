@@ -23,6 +23,14 @@ class AbsoluteNumberCalculatorTest {
         int result = AbsoluteNumberCalculator.findAbsolute(number);
         assertEquals(expected, result);
     }
+    @Test
+    void testFindAbsolute2() {
+        int number = 1;
+        int expected = 1;
+
+        int result = AbsoluteNumberCalculator.findAbsolute(number);
+        assertEquals(expected, result);
+    }
 
 
 }
